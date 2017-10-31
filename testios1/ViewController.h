@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+- (IBAction)touchbutton :(id)sender;
+@property (strong,nonatomic) IBOutlet UILabel *label;
 
 @end
 

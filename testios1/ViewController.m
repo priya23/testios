@@ -25,5 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (IBAction)touchbutton :(id)sender{
+    _label.text = @"you are genius";
+}
 @end
